@@ -1,0 +1,47 @@
+commit 92d8959a6c1553f24bc46de790470ae72af778d5
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Tue Apr 14 10:40:22 2020 -0400
+
+    finished all tests, final version.
+
+commit 1974e8ebd0df13ac08523992d0c4aeea6a01164a
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 23:23:57 2020 -0400
+
+    error correction, parse is wrong, needs to be changed
+
+commit 544027cc5faabc9d4b5d3eb0fb7b9301edef6803
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 19:41:20 2020 -0400
+
+    added ' ' parser in PARSER function in utils.c and tested evaluatePolynomial, finished utils.c and poly.c
+
+commit ea0845f547f2c04ee7a40bd4e603c273c6986474
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 19:11:48 2020 -0400
+
+    added merge feature, finished poly.c
+
+commit f50feaa8928774c1b188dcfda5f6f7ded92a135f
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 18:30:25 2020 -0400
+
+    tested addPolyTerm and sortList and displayPolynomial
+
+commit 635ab2650a52e00e3581de92ce42672a0fc25014
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 17:13:59 2020 -0400
+
+    finished addPolyTerm, evaluatePolynomial, and a helper function sortList, all not tested
+
+commit 384890d887c2ebed5a6943cf1839714497dfb9ff
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 12:41:08 2020 -0400
+
+    finished parse and powi, no main in this
+
+commit e4e9a7751af06229e3c98c08fd6ea77eb54bf051
+Author: Yimei YANG <yyang188@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 12:34:04 2020 -0400
+
+    finished parse

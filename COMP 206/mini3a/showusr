@@ -1,0 +1,22 @@
+#Do not include a sh-bang (#!/bin/bash) in this script.
+#Do not write code outside of this function body
+function fname()
+{
+#check whether fname is passed an argument. If no, set FNAME to ERROR and return 1
+  if [[ $# -eq 0 ]]
+  then
+	FNAME='ERROR'
+	return 1
+#check whether the user id is valid. If no, set FNAME to NOTFOUND and return 0 
+  elif [[ ! `who | grep $1` ]]
+  then
+	FNAME='NOTFOUND'
+	return 0
+#If yes, set FNAME to the first name and return 0
+  elif [[ `who | grep $1` ]]
+  then
+	set `pinky -f $1`
+	FNAME=$2
+	return 0 
+  fi
+}
